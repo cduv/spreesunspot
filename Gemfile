@@ -13,7 +13,9 @@ gem 'rails', '3.0.12'
 gem 'spree', :git => 'git://github.com/cduv/spree.git', :branch => '0-60-stable'
 gem 'spree_auth'
 #gem 'spree_paypal_express', :git => 'https://github.com/spree/spree_paypal_express.git', :ref => '073f2f814dd8f3ad2e66ddde2c7079d8c76e4d27'
+gem 'spree_sunspot_search',:git=> 'git@github.com:timcase/spree_sunspot_search.git'
 
+gem 'deface','0.5.2a'
 #gem 'sanitize'
 #gem 'hominid'
 #gem 'prawn'
@@ -29,7 +31,7 @@ gem 'spree_auth'
 group :development do
   gem 'magic_encoding'
   gem 'ruby-debug19'
-
+  gem 'sunspot_solr'
   #gem "fastercsv"
   #gem 'active_reload'
 end

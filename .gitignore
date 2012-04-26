@@ -7,3 +7,5 @@ db/sample
 config/database.yml
 .DS_Store
 *.tmproj
+solr/data/*
+solr/conf/*
